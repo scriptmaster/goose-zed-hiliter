@@ -1,0 +1,12 @@
+id = "goose-hiliter"
+name = "Goose Zed Hiliter"
+description = "Goose syntax highlighting and Visual Studio-inspired light and dark themes."
+version = "0.1.0"
+schema_version = 1
+authors = ["M Sheriff"]
+repository = "https://github.com/scriptmaster/goose-zed-hiliter"
+
+[grammars.goose]
+repository = "https://github.com/scriptmaster/goose-zed-hiliter"
+rev = "20bb89cedcc1029ef079f90fff122c8e99e24efc"
+path = "grammar-source"

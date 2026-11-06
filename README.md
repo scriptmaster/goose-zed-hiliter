@@ -8,6 +8,7 @@ Goose syntax highlighting for Zed, with two Visual Studio-inspired themes by M S
 | Function declarations and calls | Teal `#006F68` | Teal `#4EC9B0` |
 | Numbers | Blue `#0057B8` | Blue `#79B8FF` |
 | Operators and strings | Green `#16733A` | Green `#89D185` |
+| Types and uppercase-only names | Brown `#79502D` | Light brown `#D5A477` |
 
 ## Local installation
 

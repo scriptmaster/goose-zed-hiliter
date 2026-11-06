@@ -14,6 +14,13 @@
 (boolean_literal) @boolean
 (null) @constant
 (primitive_type) @type
+(named_type name: (identifier) @type)
+(named_type name: (scoped_identifier name: (identifier) @type))
+(type_parameter name: (identifier) @type)
+
+; Uppercase-only identifiers use the constant color by naming convention.
+((identifier) @constant
+ (#match? @constant "^[A-Z]+$"))
 
 [(int_literal) (float_literal)] @number
 [(string_literal) (raw_string_literal) (char_literal)] @string

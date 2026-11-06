@@ -54,13 +54,13 @@
             "color": "#16733A"
           },
           "constant": {
-            "color": "#7928A1"
+            "color": "#79502D"
           },
           "boolean": {
             "color": "#7928A1"
           },
           "type": {
-            "color": "#006F68"
+            "color": "#79502D"
           },
           "comment": {
             "color": "#52754D"
@@ -125,13 +125,13 @@
             "color": "#89D185"
           },
           "constant": {
-            "color": "#C586F6"
+            "color": "#D5A477"
           },
           "boolean": {
             "color": "#C586F6"
           },
           "type": {
-            "color": "#4EC9B0"
+            "color": "#D5A477"
           },
           "comment": {
             "color": "#608B4E"

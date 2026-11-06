@@ -1,0 +1,7 @@
+id = "goose-studio-theme"
+name = "Goose Studio"
+description = "Visual Studio-inspired light and dark themes by M Sheriff."
+version = "0.1.0"
+schema_version = 1
+authors = ["M Sheriff"]
+repository = "https://github.com/scriptmaster/goose-zed-hiliter"

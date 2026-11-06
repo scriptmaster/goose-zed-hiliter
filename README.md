@@ -1,6 +1,6 @@
 # Goose Zed Hiliter
 
-Goose syntax highlighting for Zed, with two Visual Studio-inspired themes by M Sheriff.
+Goose syntax highlighting for Zed by M Sheriff. The optional [Goose Studio theme extension](goose-studio-theme) provides two Visual Studio-inspired palettes.
 
 | Syntax | Goose Studio Light | Goose Studio Dark |
 | --- | --- | --- |
@@ -14,8 +14,9 @@ Goose syntax highlighting for Zed, with two Visual Studio-inspired themes by M S
 
 1. Quit Zed.
 2. Copy this folder into Zed's [installed extensions directory](https://zed.dev/docs/extensions/installing-extensions) and name the installed copy `goose-hiliter`. On Windows this is `%LOCALAPPDATA%\Zed\extensions\installed\goose-hiliter`.
-3. Start Zed and open [hello.goose](examples/hello.goose). Zed associates `.goose` files with Goose in all workspaces.
-4. Pick **Goose Studio Light** or **Goose Studio Dark** from the theme selector. The active theme also styles Zed's interface and other languages.
+3. For the optional palettes, copy the standalone goose-studio-theme folder into the same installed extensions directory. If upgrading from the bundled installation, remove the old themes folder from the installed goose-hiliter folder.
+4. Start Zed and open [hello.goose](examples/hello.goose). Zed associates `.goose` files with Goose in all workspaces.
+5. Pick **Goose Studio Light** or **Goose Studio Dark** from the theme selector. The active theme also styles Zed's interface and other languages.
 
 The bundled WebAssembly parser was generated from the [Goose Tree-sitter grammar](https://github.com/aardappel/goose/tree/7b90f91d91845f4ef1712e16ed053f395e4e6e1c/tree-sitter) with Tree-sitter CLI 0.25.8 (ABI 14) and compiled with WASI SDK 34. Its Apache 2.0 license is in [grammars/LICENSE](grammars/LICENSE).
 
